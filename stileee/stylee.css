@@ -1,27 +1,15 @@
-                    /*declarar constantes de diseño para las 
-fuentes, colores y recursos*/
-                    /* estilos para el cuerpo (body)
-   se utiliza el selector de etiqueta*/
-                    /*configuraciones globales*/
+  
                     
-                     :root {
-                        --textos: 'Lato', sans-serif;
-                        --titulos: 'Roboto', sans-serif;
-                        --colorFondo: rgb(48, 151, 132);
-                        --colorHeader: rgba(41, 36, 36, 0.6);
-                        --colorFooter: #000;
+                    body { background-color: #f52d2d   
+;             
+        ;
                     }
-                    
-                    * {
-                        box-sizing: border-box;
-                    }
-                    
-                    body {
-                        background: #e42d2d;
+                    .fondo{
+                        background-image: url(images/claro4.jpg);
                     }
                     /*secciones*/
                     
-                    section h2 {
+            h2 {
                         text-align: center;
                         font-size: 32px;
                         margin-bottom: 70px;
@@ -57,16 +45,16 @@ fuentes, colores y recursos*/
                         border: solid 12px white;
                         padding-left: 2px;
                         align-content: center;
-                        border-right-color: aqua;
+                        border-right-color: rgb(0, 68, 255);
                         margin-left: 250px;
-                        border-bottom: solid 12px rgb(20, 30, 49);
-                        border-left-color: rgb(59, 20, 85);
-                        border-top: solid 12px rgb(125, 84, 153);
+                        border-bottom: solid 12px rgb(7, 7, 7);
+                        border-left-color: rgb(247, 18, 18);
+                        border-top: solid 12px rgb(230, 6, 6);
                         align-content: center;
                     }
                     
                     h1 {
-                        background-color: rgb(246, 248, 250);
+                        background-color: #f71606;
                         border-radius: 70%;
                         margin-left: 20%;
                         margin-right: 20%;
@@ -77,8 +65,8 @@ fuentes, colores y recursos*/
                         text-align: center;
                         text-underline-position: above;
                         text-align: center;
-                        color: rgb(248, 3, 3);
-                        border: solid 5px rgb(221, 221, 236);
+                        color: rgb(3, 0, 0);
+                        border: solid 5px rgb(243, 243, 247);
                     }
                     
                     h2 {
@@ -90,7 +78,7 @@ fuentes, colores y recursos*/
                         text-align: center;
                         text-underline-position: above;
                         text-align: center;
-                        color: rgb(233, 232, 243);
+                        color: rgb(12, 1, 1);
                     }
                     
                     h3 {
@@ -101,9 +89,9 @@ fuentes, colores y recursos*/
                         text-align: center;
                         text-underline-position: above;
                         text-align: center;
-                        color: rgb(9, 14, 11);
+                        color: rgb(202, 209, 205);
                         border: solid 3px rgb(142, 142, 194);
-                       
+                        background-image: url(images/claro4.jpg);
                         border-top: #090a09;
                         border: solid 7px rgb(235, 235, 243);
                         border-top: #090a09;
@@ -133,7 +121,7 @@ fuentes, colores y recursos*/
                         padding-top: 20px;
                         padding-bottom: 33px;
                         padding-left: 15px;
-                        color: rgb(22, 11, 11);
+                        color: rgb(247, 241, 241);
                     }
                     
                     i.social {
@@ -202,9 +190,9 @@ fuentes, colores y recursos*/
                     }
                     
                     #home .social a {
-                        color: var(--colorFondo);
+                        color: rgb(12, 0, 0);
                         display: inline-block;
-                        background-color: var(--colorFooter);
+                     
                         border-radius: 50%;
                         width: 50px;
                         height: 50px;
@@ -219,10 +207,14 @@ fuentes, colores y recursos*/
                     }
                     
                     #home .social a:hover {
-                        background-color: #b82ae4;
+                        background-color: rgb(250, 243, 243);
                     }
                     
                     #home {
                         text-align: center;
                         padding: 200px 0 150px;
+                    }
+                    .container{ 
+                        background-image: url(images/claro4.jpg);
+
                     }
