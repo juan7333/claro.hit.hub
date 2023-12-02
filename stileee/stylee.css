@@ -1,4 +1,7 @@
- body { background-color: #f52d2d   
+ 
+              
+                    
+                    body { background-color: #f52d2d   
 ;             
         ;
                     }
@@ -162,7 +165,7 @@
                     }
                     
                     .social {
-                        margin-top: 7px;
+                        margin-top: 80px;
                     }
                     
                     .cover {
@@ -170,7 +173,7 @@
                     }
                     
                     img {margin-left: 20%;
-                        margin-top: 1%;
+                        margin-top: 15%;
                         width: 35%;
                         
                     }
@@ -234,10 +237,7 @@
                         text-align: center;
                         padding: 200px 0 150px;
                     }
-                    .container{ 
-                        background-image: url(images/claro4.jpg);
-
-                    }
+                   
                     .boxtv{
                      margin-left: 12%
                     }
