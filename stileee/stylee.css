@@ -1,6 +1,4 @@
-  
-                    
-                    body { background-color: #f52d2d   
+ body { background-color: #f52d2d   
 ;             
         ;
                     }
@@ -171,12 +169,33 @@
                         text-align: center;
                     }
                     
-                    img {
-                        align-content: center;
+                    img {margin-left: 20%;
+                        margin-top: 15%;
+                        width: 35%;
+                        
                     }
                     
                     .logo {
-                        margin-left: 230px;
+                        margin-left: 17%;
+                        margin-top: 2%;
+                    }
+                  
+                
+                   
+
+
+                  .boxtv{background-color: #f0f2f7;
+                        border-radius: 33px;
+                        border: solid 12px white;
+                        padding-left: 2px;
+                        align-content: center;
+                        border-right-color: rgb(147, 147, 240);
+                        margin-left: 50px;
+                        border-bottom: solid 12px rgb(7, 7, 7);
+                        border-left-color: rgb(214, 198, 198);
+                        border-top: solid 12px rgb(230, 6, 6);
+                        align-content: center;
+
                     }
                     
                     #home .divider {
@@ -208,6 +227,7 @@
                     
                     #home .social a:hover {
                         background-color: rgb(250, 243, 243);
+                        width: 25%;
                     }
                     
                     #home {
@@ -216,5 +236,21 @@
                     }
                     .container{ 
                         background-image: url(images/claro4.jpg);
+
+                    }
+                    .boxtv{
+                     margin-left: 12%
+                    }
+                    .conrtion{background-color: #f0f2f7;
+                        border-radius: 33px;
+                        border: solid 12px rgb(131, 13, 13);
+                        padding-left: 2px;
+                        align-content: center;
+                        border-right-color: rgb(15, 15, 15);
+                        margin-left: 50px;
+                        border-bottom: solid 12px rgb(7, 7, 7);
+                        border-left-color: rgb(221, 109, 109);
+                        border-top: solid 12px rgb(247, 238, 238);
+                        align-content: center;
 
                     }
