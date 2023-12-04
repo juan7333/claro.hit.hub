@@ -1,7 +1,4 @@
- 
-              
-                    
-                    body { background-color: #f52d2d   
+ body { background-color: #f52d2d   
 ;             
         ;
                     }
@@ -253,4 +250,15 @@
                         border-top: solid 12px rgb(247, 238, 238);
                         align-content: center;
 
+                    }
+                    iframe{
+                        margin-right: 50%;
+                        margin-left: 10%;
+                        padding-right: 25%;
+                        width: 50%;
+                        top: 20%;
+                        left: 25%;
+                    }
+                    .link{
+                        margin-right: position: height: 25%;;
                     }
