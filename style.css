@@ -18,19 +18,7 @@ fuentes, colores y recursos*/
         position: relative;
         margin-left: 180px;
     }
-    
-    .btn {
-        position: absolute;
-        top: 15px;
-        left: 45px;
-        height: 45px;
-        width: 45px;
-        text-align: center;
-        background: #ee9292;
-        border-radius: 3px;
-        cursor: pointer;
-        transition: left 0.4s ease;
-    }
+   
     
     .btn.click {
         left: 260px;
@@ -376,17 +364,7 @@ fuentes, colores y recursos*/
         margin-top: 15px;
     }
     
-    .logo {
-        align-items: center;
-        margin-left: 50%;
-        margin-bottom: 1px;
-        border-radius: 33%;
-        padding-top: 1%;
-        margin-top: 1%;
-        border-top: solid 7px rgb(130, 195, 238);
-        border-right: solid 7px rgb(17, 5, 17);
-        border-left: solid 7px rgb(168, 108, 168);
-    }
+  
     /*
 
 header {
@@ -441,11 +419,12 @@ header nav a:hover {
     .sidebar {
         position: fixed;
         width: 250px;
-        height: 100%;
+        height: 50%;
         left: -250px;
         background: #020100;
         transition: left 0.4s;
         border: solid 7px red;
+        border-radius:20%;
     }
     
     .sidebar.text {
@@ -608,10 +587,7 @@ header nav a:hover {
    
     
  
-    
-    .btn {
-        position: fixed;
-    }
+  
     /*servicios*/
     
     #servicios .box {
@@ -640,8 +616,12 @@ header nav a:hover {
     h4 {
         color: rgb(15, 12, 22);
         background-color: #f00c05;
-        border: solid 3px rgb(8, 1, 1);
+        border: solid 5px rgb(8, 1, 1);
         border-radius: 25%;
+        align-content: center;
+        padding-left: 25%;
+        padding-top: 3%;
+        padding-bottom: 4%;
     }
     
     h6 {
@@ -705,10 +685,7 @@ header nav a:hover {
         justify-content: center;
     }
     
-    #LOGO {
-        align-content: center;
-    }
-
+   
     #portafolio .box h3 {
         text-align: center;
         margin-top: 10px;
@@ -897,4 +874,17 @@ header nav a:hover {
         padding-left: 5%;
         margin-left: 10%;
         margin-top: 1px;
+    }
+    .logo {
+        margin-top: 50%; 
+
+        
+  
+        margin-left: 250%;
+        border-radius: 33%;
+ 
+        margin-top: 1px;
+        border-top: solid 7px rgb(130, 195, 238);
+        border-right: solid 7px rgb(17, 5, 17);
+        border-left: solid 7px rgb(168, 108, 168);
     }
