@@ -3,9 +3,12 @@
         background: #e20202;
     }
     
-    p {
-        position: relative;
-        margin-left: 180px;
+   
+  p {
+        text-align: center;
+        color: #000;
+        margin-left: 50%;
+        position: absolute;
     }
    
     
