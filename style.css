@@ -7,7 +7,7 @@ fuentes, colores y recursos*/
         --colorFooter: #000;
     }
     /* estilos para el cuerpo (body)
-    
+      
     body {
         background: #e20202;
     }
@@ -747,7 +747,7 @@ header nav a:hover {
     }
     
     a:hover {
-        color: rgb(8, 0, 8);
+        color: rgb(238, 231, 238);
     }
     
     .cover {
@@ -761,7 +761,7 @@ header nav a:hover {
     
     .text {
         color: rgb(233, 220, 233);
-        margin-left: %;
+        margin-left: 37%;
         margin-top: 10%;
         border-radius: 20%;
     }
