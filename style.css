@@ -1,4 +1,4 @@
-      
+     
     body {
         background: #e20202;
     }
@@ -13,15 +13,9 @@
         left: 260px;
     }
     
-    .btn span {
-        color: rgb(231, 73, 73);
-        font-size: 28px;
-        line-height: 45px;
-    }
+  
     
-    .btn.btn.click span::before {
-        content: '\feed/';
-    }
+ 
     
     .sidebar {
         position: fixed;
@@ -36,11 +30,7 @@
         left: 1px;
     }
     
-    .sidebar.text {
-        color: rgb(9, 32, 158);
-        font-size: 25px;
-        font-weight: 600;
-    }
+
     
     nav ul {
         background: #d57878;
@@ -49,10 +39,7 @@
         list-style: none;
     }
     
-    nav ul li {
-        line-height: 60px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
+    
     
     
     
@@ -60,18 +47,8 @@
         display: block;
     }
     
-    nav ul.serv-show.show1 {
-        display: block;
-    }
-    
-    nav ul li {
-        margin: 0;
-        padding: 0;
-        user-select: none;
-        color: rgb(8, 0, 0);
-        box-sizing: border-box;
-        font-family: "poppins", sans-serif;
-    }
+   
+   
     
     nav ul li a {
         position: relative;
@@ -84,19 +61,9 @@
         width: 100%;
         border-left: 3px solid transparent;
     }
+  
     
-    nav ul li.active a {
-        color: rgb(1, 14, 14);
-        background: #1e1e1e;
-        border-left-color: rgb(236, 229, 238);
-    }
-    
-    nav ul li a:hover {
-        color: rgb(12, 12, 12);
-        background: #1e1e1e;
-        border-left-color: cyan;
-        position: relative;
-    }
+ 
     
     nav ul ul {
         position: static;
@@ -107,11 +74,7 @@
         display: block;
     }
     
-    nav ul ul li {
-        line-height: 42px;
-        border-bottom: none;
-        color: cyan
-    }
+ 
     
     nav ul ul li a {
         font-size: 17px;
@@ -128,7 +91,7 @@
     
     nav ul ul li a:hover {
         color: rgb(236, 245, 245);
-        background: #020000;
+        background: #e9e3e3;
         border-left-color: transparent;
     }
     
@@ -149,10 +112,7 @@
         transform: translateY(show);
     }
     
-    .home-wrapper {
-        box-sizing: border-box;
-        margin-top: 7%;
-    }
+   
     
     .sidebar.text {
         margin: 5%;
@@ -165,13 +125,13 @@
     }
     
     .btn {
-        position: absolute;
+        position: fixed;
         top: 25px;
         left: 45px;
         height: 45px;
         width: 45px;
         text-align: center;
-        background: #1b1b1b;
+        background: #f3eded;
         border-radius: 3px;
         cursor: pointer;
         transition: left 0.4s ease ;
@@ -188,14 +148,7 @@
         line-height: 45px;
     }
     
-    .sidebar {
-        position: fixed;
-        width: 150px;
-        height: 100%;
-        left: 300px;
-        background: #ec9e8a;
-        transition: left 0.4s;
-    }
+
     
     .sidebar.show {
         left: 1px;
@@ -208,7 +161,7 @@
     }
     
     nav ul {
-        background: #1b1b1b;
+        background: #ebe2e2;
         height: 100px;
         width: 100px;
         list-style: none;
@@ -219,10 +172,7 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     
-    nav ul li :last-child {
-        border-bottom: 1px solid gold;
-    }
-    
+   
     nav ul.feat-show.show {
         display: block;
     }
@@ -239,19 +189,9 @@
         box-sizing: border-box;
         font-family: "poppins", sans-serif;
     }
+
     
-    nav ul li.active a {
-        color: rgb(255, 0, 0);
-        background: #1e1e1e;
-        border-left-color: cyan;
-    }
-    
-    nav ul li a:hover {
-        color: rgb(216, 33, 134);
-        background: #1e1e1e;
-        border-left-color: cyan;
-        position: relative;
-    }
+   
     
     nav ul ul {
         position: static;
@@ -262,12 +202,7 @@
         display: block;
     }
     
-    nav ul ul li {
-        line-height: 22px;
-        border-bottom: none;
-        color: rgb(24, 27, 27)
-    }
-    
+  
     nav ul ul li a {
         font-size: 1px;
         color: #e6e6e6;
@@ -275,17 +210,8 @@
         font-size: 22px;
     }
     
-    nav ul li.active ul li a {
-        color: #e6e6e6;
-        background: #1b1b1b;
-        border-left-color: transparent;
-    }
-    
-    nav ul ul li a:hover {
-        color: cyan;
-        background: #1e1e1e;
-        border-left-color: transparent;
-    }
+   
+   
     
     nav ul li a span {
         position: absolute;
@@ -304,13 +230,8 @@
         transform: translateY(show);
     }
     
-    h1:hover {
-        color: rgb(21, 20, 46);
-    }
-    
-    h2:hover {
-        color: rgb(73, 187, 162);
-    }
+   
+  
     
     section {
         margin-left: 25;
@@ -322,29 +243,36 @@
         border-radius: 2px 0px 2px;
         transition: all 3ms;
         padding: 130px;
+
     }
     /*sintaxis para las clases en css es con punto (.)*/
     
     .home-wrapper {
         background-image: url("images/claro4.jpg");
         right: 200%;
-        right: 100%;
+        height: 50%;
+        width: 50%;
+     
         top: auto;
         background-size: cover;
-        color: #64f02c;
+        margin-left: 2pxS;
+        margin-right: 0px
+        ;
+
         padding-bottom: 7px;
         margin-bottom: 7px;
         margin-top: 150px;
         width: 100%;
         border: solid 10px rgb(248, 210, 218);
         border-radius: 25%;
-        padding-bottom: ;
+
     }
     
     .container {
         width: 250px;
-        left: 15%;
+        left: 10%;
         margin-left: 5%;
+        padding-left: 1px;
         padding: 5px 0 5px;
         border-radius: 250px;
         box-sizing: content-box;
@@ -353,34 +281,13 @@
         padding: 1px 0;
         margin-top: 15px;
     }
-    
-  
-    /*
+   h4{ 
+text-align: center;}
 
-header {
-    background-color: rgba(104, 99, 105, 0.6);
-    border-width: 100px;
-    width: 100%;
-    border-radius: 200px;
-    box-sizing: border-box;
-    position: fixed;
-    
-}
-
-header nav {
-    float: right;
-    font-weight: bold;
-}
-
-header nav a:hover {
-    color: rgb(43, 37, 0);
-    font-weight: bold;
-    left: 17px;
 }
 
 
-*/
-    /*los identificadores (id) en el html, su sintaxis en css es el numeral (#) */
+
     
     #home {
         text-align: center;
@@ -397,19 +304,17 @@ header nav a:hover {
     }
     
     .btn span {
-        color: rgb(212, 25, 25);
+        color: rgb(2, 0, 0);
         font-size: 28px;
         line-height: 45px;
     }
     
-    .btn.btn.click span::before {
-        content: '\feed';
-    }
+  
     
     .sidebar {
         position: fixed;
         width: 250px;
-        height: 50%;
+        height: 10%;
         left: -250px;
         background: #020100;
         transition: left 0.4s;
@@ -418,7 +323,7 @@ header nav a:hover {
     }
     
     .sidebar.text {
-        color: white;
+        color: rgb(12, 12, 12);
         font-size: 25px;
         font-weight: 600;
     }
@@ -443,24 +348,18 @@ header nav a:hover {
         display: block;
         text-align: center;
         background-color: #000;
+        border: solid 5px black;
     }
     
     nav ul.serv-show.show1 {
         display: block;
     }
     
-    nav ul li {
-        margin: 0;
-        padding: 0;
-        user-select: none;
-        color: rgb(221, 75, 75);
-        box-sizing: border-box;
-        font-family: "poppins", sans-serif;
-    }
+
     
     nav ul li a {
         position: relative;
-        color: rgb(241, 15, 15);
+        color: rgb(15, 1, 1);
         text-decoration: none;
         font-size: 18px;
         padding-left: 18px;
@@ -470,15 +369,11 @@ header nav a:hover {
         border-left: 3px solid transparent;
     }
     
-    nav ul li.active a {
-        color: rgb(252, 246, 246);
-        background: #1e1e1e;
-        border-left-color: rgb(237, 245, 245);
-    }
+
     
     nav ul li a:hover {
         color: rgb(236, 228, 226);
-        background: #1e1e1e;
+        background: #ac0909;
         border-left-color: red(236, 230, 226);
         position: relative;
     }
@@ -534,11 +429,7 @@ header nav a:hover {
         transform: translateY(show);
     }
     
-    #home p {
-        font-size: 1.4rem;
-        margin-top: 40px;
-        color: rgb(240, 238, 243);
-    }
+ 
     
     .social a {
         color: rgb(223, 226, 242);
@@ -570,9 +461,7 @@ header nav a:hover {
         padding: 100%;
     }
     
-    p {
-        color: violet;
-    }
+   
     
    
     
@@ -598,34 +487,13 @@ header nav a:hover {
         background-color: #f1f0f3;
         text-align: center;
     }
+   
     
     
     
 
     
-    h4 {
-        color: rgb(15, 12, 22);
-        background-color: #f00c05;
-        border: solid 5px rgb(8, 1, 1);
-        border-radius: 25%;
-        align-content: center;
-        padding-left: 25%;
-        padding-top: 3%;
-        padding-bottom: 4%;
-    }
-    
-    h6 {
-        background-color: #e4e9f1;
-        text-align: center;
-        margin-right: 1px;
-        margin-left: 1px;
-        padding-top: 7PX;
-        padding-bottom: 7PX;
-        border-radius: 25%;
-        border: solid 2px black;
-        align-content: center;
-        padding-left: 1%;
-    }
+   
     /*Portafolio*/
     
     .btn-wsp {
@@ -664,17 +532,7 @@ header nav a:hover {
             padding: 10px 0;
         }
     }
-    
-    #des {
-        margin: 120px;
-        border: #f56c6c;
-        padding: 125px;
-        position: absolute;
-        width: 12px;
-        content: normal;
-        justify-content: center;
-    }
-    
+   
    
     #portafolio .box h3 {
         text-align: center;
@@ -684,17 +542,10 @@ header nav a:hover {
     p {
         text-align: center;
         color: #000;
+        margin-left: 50%;
     }
     
-    .viole {
-        background-color: #8aabec;
-        font-size: 25px;
-        width: 25%;
-        margin-left: 35%;
-        text-align: center;
-        border: solid 3px violet;
-        border-radius: 25%;
-    }
+    
     
     .suggestionContainer-DS-EntryPoint1-2 input {
         appearance: none;
@@ -718,7 +569,7 @@ header nav a:hover {
    
     footer {
         text-align: center;
-        margin-left: 175%;
+        margin-left: 10%;
     }
     
    
@@ -736,10 +587,7 @@ header nav a:hover {
     .directo {
         padding-left: 17px;
     }
-    
-    a:hover {
-        color: rgb(238, 231, 238);
-    }
+   
     
     .cover {
         background-color: #e2e6ee;
@@ -771,20 +619,7 @@ header nav a:hover {
         margin-left: 25%;
     }
     
-    .modal-container {
-        display: flex;
-        background-color: rgba(221, 126, 126, 0.3);
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        pointer-events: none;
-        opacity: 0;
-        top: 10%;
-        left: 10%; ;
-        height: 100vh;
-        width: 100vw;
-        transition: opacity 0.3s ease;
-    }
+   
     
     .show {
         pointer-events: auto;
@@ -797,14 +632,11 @@ header nav a:hover {
         max-width: 100%;
         padding: 30px 50px;
         border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 4px rgba(238, 4, 4, 0.2);
         text-align: center;
     }
     
-    .modal h1 {
-        margin: 10%;
-    }
-    
+  
     .modal p {
         opacity: 0.7;
         font-size: 14px;
@@ -813,42 +645,13 @@ header nav a:hover {
     .videos {
         margin-left: 10%;
        background-color: white;
-        border: solid 5px rgb(14, 1, 1);
+        border: solid 5px rgb(14, 13, 13);
         width: 127%;
       
         
     }
-    h3 {
-        background-color: rgb(240, 228, 228);
-        border-radius: 70%;
-        margin-left: 33px;
-        padding-left: 2px;
-        text-align: center;
-        text-underline-position: above;
-        text-align: center;
-        color: rgb(202, 209, 205);
-        border: solid 3px rgb(3, 3, 17);
-        background-image: url(images/claro4.jpg);
-        border-top: #090a09;
-        border: solid 7px rgb(235, 235, 243);
-        border-top: #090a09; 
-        border-top: solid 7px rgb(7, 7, 7);
-        padding-top: 12px;
-        padding-bottom: 12px;
-        padding-left: 12px;
-    }
-    .box  {
-        padding-left: 30%;
-        padding-bottom: 1px;
-        border: solid 5px rgb(102, 40, 40);
-        transition-duration: 5s;
-        color: grey;
-        padding: 5px;
-        border-radius: 25%;
-        scroll-margin-right: 2px;
-        margin-left: 100%;
-     
-    }
+
+   
     p {
         align-content: center;
         margin-left:50%;
@@ -883,3 +686,23 @@ header nav a:hover {
         border-right: solid 7px rgb(17, 5, 17);
         border-left: solid 7px rgb(168, 108, 168);
     }
+   .triple{ 
+    border: solid 3px white;
+  
+    margin-left: 20px;
+margin-right: 10%;
+border-radius: 50%;
+color: white;
+background-color: #000;
+text-align: center;}
+h2{
+    margin-left: 37%;
+}
+.feb{
+    margin-left: 37%;
+}
+
+
+  
+
+ 
