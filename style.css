@@ -7,8 +7,6 @@ fuentes, colores y recursos*/
         --colorFooter: #000;
     }
     /* estilos para el cuerpo (body)
-   se utiliza el selector de etiqueta*/
-    /*configuraciones globales*/
     
     body {
         background: #e20202;
@@ -166,7 +164,8 @@ fuentes, colores y recursos*/
     }
     
     .sidebar.text {
-        margin: 0;
+        margin: 5%;
+        margin: left 10%; ;
         padding: 0;
         user-select: none;
         color: white;
@@ -725,13 +724,10 @@ header nav a:hover {
         padding-inline-start: 16px;
     }
     
-    div.cover {
-        text-align: center;
-        left: 30%;
-    }
-    
+   
     footer {
         text-align: center;
+        margin-left: 175%;
     }
     
    
@@ -756,8 +752,8 @@ header nav a:hover {
     
     .cover {
         background-color: #e2e6ee;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 20%;
+      border-radius: 20%;
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: solid 3px black;
@@ -765,6 +761,9 @@ header nav a:hover {
     
     .text {
         color: rgb(233, 220, 233);
+        margin-left: %;
+        margin-top: 10%;
+        border-radius: 20%;
     }
     
    
@@ -822,6 +821,11 @@ header nav a:hover {
     
     .videos {
         margin-left: 10%;
+       background-color: white;
+        border: solid 5px rgb(14, 1, 1);
+        width: 127%;
+      
+        
     }
     h3 {
         background-color: rgb(240, 228, 228);
