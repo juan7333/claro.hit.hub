@@ -569,6 +569,11 @@ h2{
 .feb{
     margin-left: 37%;
 }
+h2{
+    background-color: white;
+    padding-left: 19%;
+    border: solid 3px black;
+}
 
 
   
