@@ -1,14 +1,11 @@
-     
+  
     body {
         background: #e20202;
     }
     
-   
-  p {
-        text-align: center;
-        color: #000;
-        margin-left: 50%;
-        position: absolute;
+    p {
+        position: relative;
+        margin-left: 180px;
     }
    
     
@@ -21,10 +18,11 @@
  
     
     .sidebar {
+       
         position: fixed;
-        width: 250px;
+        width: 100%;
         height: 100%;
-        left: -250px;
+        left: -230px;
         background: #e2a0a0;
         transition: left 0.4s;
     }
@@ -58,7 +56,7 @@
         color: white;
         text-decoration: none;
         font-size: 18px;
-        padding-left: 18px;
+        padding-left: 50%;
         font-weight: 500;
         display: block;
         width: 100%;
@@ -82,7 +80,7 @@
     nav ul ul li a {
         font-size: 17px;
         color: #e6e6e6;
-        padding-left: 80px;
+      
         font-size: 22px;
     }
     
@@ -129,13 +127,16 @@
     
     .btn {
         position: fixed;
-        top: 25px;
+        padding-top: 3%;
+     border: solid 33px black;
+     border-radius: 20%;
+        top: 2px;
         left: 45px;
-        height: 45px;
-        width: 45px;
+        height: 70px;
+        width: 70px;
         text-align: center;
         background: #f3eded;
-        border-radius: 3px;
+     
         cursor: pointer;
         transition: left 0.4s ease ;
     }
@@ -185,8 +186,9 @@
     }
     
     nav ul li {
-        margin: 0;
-        padding: 0;
+        margin: 5%;
+        padding-top: 7%;
+      padding-left: 33%;
         user-select: none;
         color: white;
         box-sizing: border-box;
@@ -240,7 +242,7 @@
         margin-left: 25;
     }
     
-    h6 p {
+    h6  {
         align-content: center;
         transition: all;
         border-radius: 2px 0px 2px;
@@ -287,6 +289,8 @@
    h4{ 
 text-align: center;}
 
+li{
+    background-color: #ac0909;
 }
 
 
@@ -542,11 +546,7 @@ text-align: center;}
         margin-top: 10px;
     }
     
-    p {
-        text-align: center;
-        color: #000;
-        margin-left: 50%;
-    }
+ 
     
     
     
@@ -655,18 +655,10 @@ text-align: center;}
     }
 
    
-    p {
-        align-content: center;
-        margin-left:50%;
-        margin-right: 15%;
-        background-color: rgb(66, 204, 91);
-        text-align: center;
-        border-radius: 30%;
-        padding-top: 7px;
-        padding-bottom: 10px;
-        border: solid 5px white;
-        width: 50%;
-    }
+   p{
+    color: rgb(18, 20, 18);
+    margin-left: 50%;
+   }
     
   
     .container{
