@@ -529,8 +529,12 @@ li{
 
    
    p{
-    color: rgb(18, 20, 18);
-    margin-left: 50%;
+    color: rgb(51, 196, 51);
+    margin-left: 5%;
+    background-color: #f1f0f3;
+    padding-left: 12%;
+    border-radius: 50%;
+    
    }
     
   
@@ -563,9 +567,7 @@ border-radius: 50%;
 color: white;
 background-color: #000;
 text-align: center;}
-h2{
-    margin-left: 37%;
-}
+
 .feb{
    
 }
@@ -574,6 +576,24 @@ h2{
   margin-left: 1px;
   margin-right: 12px;
     border: solid 3px black;
+}
+
+  
+    
+
+.todo{
+    background-color: #000;
+align-content: center;
+padding-left: 5%;
+padding-top: 3%;
+padding-bottom: 3%;
+margin: left 20%;
+margin-left: 50%; 
+border-radius: 40%;
+border-bottom: solid 3px  white;
+color: red;
+   
+
 }
 
 
